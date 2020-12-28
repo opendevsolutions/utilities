@@ -30,26 +30,16 @@ import java.util.stream.Collectors;
 
 public class DateUtilities {
 
-    @SuppressWarnings("unused")
-	private static final String DD_MM_YYYY_SLASH = "dd/MM/yyyy";
-    @SuppressWarnings("unused")
-    private static final String YYYY_MM_DD_SLASH = "yyyy/MM/dd";
-    @SuppressWarnings("unused")
-    private static final String DD_MM_YYYY_DASH = "dd-MM-yyyy";
-    @SuppressWarnings("unused")
-    private static final String YYYY_MM_DD_DASH = "dd-MM-yyyy";
-    @SuppressWarnings("unused")
-    private static final String DD_MMM_YYYY_DASH = "dd-MMM-yyyy";
-    @SuppressWarnings("unused")
-    private static final String DD_MMM_YYYY_SLASH = "dd/MMM/yyyy";
-    @SuppressWarnings("unused")
-    private static final String ISO_DATE_TIME_FORMAT_MILLI_SECONDS = "yyyy-MM-dd'T'HH:mm:ss.SSSz";
-    @SuppressWarnings("unused")
-    private static final String ISO_DATE_TIME_FORMAT_MICRO_SECONDS = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
-    @SuppressWarnings("unused")
-    private static final String ISO_DATE_TIME_FORMAT_MINUTES = "yyyy-MM-dd'T'HH:mmz";
-    @SuppressWarnings("unused")
-    private static final String ISO_DATE_TIME_ZONE_FORMAT_MINUTES = "yyyy-MM-dd'T'HH:mm'Z'";
+	public static final String DD_MM_YYYY_SLASH = "dd/MM/yyyy";
+    public static final String YYYY_MM_DD_SLASH = "yyyy/MM/dd";
+    public static final String DD_MM_YYYY_DASH = "dd-MM-yyyy";
+    public static final String YYYY_MM_DD_DASH = "dd-MM-yyyy";
+    public static final String DD_MMM_YYYY_DASH = "dd-MMM-yyyy";
+    public static final String DD_MMM_YYYY_SLASH = "dd/MMM/yyyy";
+    public static final String ISO_DATE_TIME_FORMAT_MILLI_SECONDS = "yyyy-MM-dd'T'HH:mm:ss.SSSz";
+    public static final String ISO_DATE_TIME_FORMAT_MICRO_SECONDS = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
+    public static final String ISO_DATE_TIME_FORMAT_MINUTES = "yyyy-MM-dd'T'HH:mmz";
+    public static final String ISO_DATE_TIME_ZONE_FORMAT_MINUTES = "yyyy-MM-dd'T'HH:mm'Z'";
     
     /**
      * Metodo que maneja una Exception si la fecha pasada como parametro existe o no en el calendario real.<br>
